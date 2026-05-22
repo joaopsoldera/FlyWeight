@@ -12,6 +12,6 @@ public class TreeType {
 	public void draw(int x, int y, int altura) {
 		System.out.println("Desenhando a árvore " + nome + 
 			"na posição (" + x +", " + y, ")."
-		)
+		);
 	}
 }
