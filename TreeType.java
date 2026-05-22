@@ -1,17 +1,15 @@
 public class TreeType {
-	private string nome;
-	private string textura;
-	private string corbase;
+	private String nome;
+	private String textura;
+	private String corbase;
 
-	public TreeType(string nome, string textura, string corbase) {
+	public TreeType(String nome, String textura, String corbase) {
 		this.nome = nome;
 		this.textura = textura;
 		this.corbase = corbase;
 	}
 
 	public void draw(int x, int y, int altura) {
-		System.out.println("Desenhando a árvore " + nome + 
-			"na posição (" + x +", " + y, ")."
-		)
+		System.out.printf("Desenhando a árvore %s na posição (%d, %d)", nome, x, y);
 	}
 }
