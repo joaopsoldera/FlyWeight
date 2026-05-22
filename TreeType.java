@@ -1,9 +1,9 @@
 public class TreeType {
-	private string nome;
-	private string textura;
-	private string corbase;
+	private String nome;
+	private String textura;
+	private String corbase;
 
-	public TreeType(string nome, string textura, string corbase) {
+	public TreeType(String nome, String textura, String corbase) {
 		this.nome = nome;
 		this.textura = textura;
 		this.corbase = corbase;
