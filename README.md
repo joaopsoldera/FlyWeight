@@ -8,4 +8,4 @@ Implementação padrão de projeto **Flyweight** no contexto da geração de obj
 
 A gente fez uma simulação plantando 1 milhão de árvores no código. Primeiro, a gente cria as árvores do jeito normal, onde cada árvore guarda todas as suas próprias informações (nome, textura, cor, posição, etc). Depois, a gente faz a mesma coisa usando o Flyweight, que basicamente separa o que é repetido (tipo o nome, textura e a cor da árvore) em um objeto só e compartilha com todo mundo, guardando apenas a posição e a altura de cada uma separadamente.
 
-Rodando o `Main.java`, o código imprime a diferença de memória gasta entre os dois jeitos. Dá pra ver direitinho como o Flyweight faz uma diferença gigante na hora de otimizar as coisas!
+Rodando o `Main.java`, o código imprime a diferença de memória gasta entre os dois jeitos.
